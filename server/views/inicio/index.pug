@@ -1,0 +1,33 @@
+extends ../layout/index
+
+block contenido
+    .arjs-loader
+        div Loading, please wait...
+
+    a-scene(vr-mode-ui='enabled: false;', renderer='logarithmicDepthBuffer: true;', embedded='', arjs='trackingMethod: best; sourceType: webcam;debugUIEnabled: false;')
+    
+        a-nft(type='nft', url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/OscarGa8a/RepoImagesDescriptors/master/descriptors/image_desciptors/agua-image/agua', smooth='true', smoothcount='10', smoothtolerance='.01', smooththreshold='5')
+            a-entity(gltf-model='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf', scale='2 2 2', position='50 150 0')
+        
+        a-nft(type='nft', url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/OscarGa8a/RepoImagesDescriptors/master/descriptors/image_desciptors/condor-image/condor', smooth='true', smoothcount='10', smoothtolerance='.01', smooththreshold='5')
+            a-entity(gltf-model='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf', scale='2 2 2', position='50 150 0')
+
+        a-nft(type='nft', url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/OscarGa8a/RepoImagesDescriptors/master/descriptors/image_desciptors/dorado-image/dorado', smooth='true', smoothcount='10', smoothtolerance='.01', smooththreshold='5')
+            a-entity(gltf-model='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf', scale='2 2 2', position='50 150 0')
+
+        a-nft(type='nft', url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/OscarGa8a/RepoImagesDescriptors/master/descriptors/image_desciptors/dulce-image/dulce', smooth='true', smoothcount='10', smoothtolerance='.01', smooththreshold='5')
+            a-entity(gltf-model='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf', scale='2 2 2', position='50 150 0')
+
+        a-nft(type='nft', url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/OscarGa8a/RepoImagesDescriptors/master/descriptors/image_desciptors/gato-image/gato', smooth='true', smoothcount='10', smoothtolerance='.01', smooththreshold='5')
+            a-entity(gltf-model='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf', scale='2 2 2', position='50 150 0')
+
+        a-nft(type='nft', url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/OscarGa8a/RepoImagesDescriptors/master/descriptors/image_desciptors/rio-image/rio', smooth='true', smoothcount='10', smoothtolerance='.01', smooththreshold='5')
+            a-entity(gltf-model='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf', scale='2 2 2', position='50 150 0')
+
+        a-nft(type='nft', url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/OscarGa8a/RepoImagesDescriptors/master/descriptors/image_desciptors/trex-image/trex', smooth='true', smoothcount='10', smoothtolerance='.01', smooththreshold='5')
+            a-entity(gltf-model='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf', scale='2 2 2', position='50 150 0')
+
+        a-nft(type='nft', url='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/OscarGa8a/RepoImagesDescriptors/master/descriptors/image_desciptors/tribuikua1-image/tribuikua1', smooth='true', smoothcount='10', smoothtolerance='.01', smooththreshold='5')
+            a-entity(gltf-model='https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/aframe/examples/image-tracking/nft/trex/scene.gltf', scale='2 2 2', position='50 150 0')
+
+        a-entity(camera='')
